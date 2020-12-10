@@ -12,5 +12,6 @@ public class AplicacionTest {
     public void laAplicacionDeberiaMostrarElMensajeDeBienvenida() {
         Aplicacion classUnderTest = new Aplicacion();
         assertNotNull("Debería mostrar el mensaje de bienvenida", classUnderTest.getGreeting());
+        // se prueba trabis
     }
 }
